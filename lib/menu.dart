@@ -128,7 +128,7 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      // Menggunakan warna sekunder dari skema tema aplikasi.
+      // Warna latar diambil dari data item, sehingga tiap tombol berbeda warna.
       color: item.color,
       borderRadius: BorderRadius.circular(12),
       child: InkWell(
